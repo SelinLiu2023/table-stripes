@@ -1,0 +1,29 @@
+:root{
+    --darkgrey: #888888;
+    --grey: #c0c0c0;
+    --lightgrey: #efefef;
+    --rosa:#ffbbbb;
+}
+th,td{
+    text-align: left;
+    padding: 0.5rem 1rem;
+}
+tbody>tr:nth-child(even){
+    background-color: var(--grey);
+}
+tbody>tr:nth-child(odd){
+    background-color: var(--lightgrey);
+}
+/* tr:nth-child(odd):not(thead tr){
+    background-color: var(--lightgrey);
+} */
+thead tr{
+    background-color: var(--darkgrey);
+    color: var(--lightgrey);
+}
+tbody>tr:nth-child(3) td:nth-child(2){
+    background-color: var(--rosa);
+}
+tbody>tr:nth-child(6) td:nth-child(2){
+    background-color: var(--rosa);
+}
